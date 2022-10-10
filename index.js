@@ -8,7 +8,7 @@ app.listen(process.env.PORT,()=>{
 let time = d.getHours();
 let timeMin=d.getMinutes();
     setInterval(()=>{
-        axios.get("http://3.6.165.128:5000/api/user/630b6a0281c92cbe12b9b5d5/admin/user/updatevotes",
-        {headers:{Authorization:"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzBiNmEwMjgxYzkyY2JlMTJiOWI1ZDUiLCJpYXQiOjE2NjMwMDUxMzR9.Qkcy6s1644q1SRrhm8258gjNK4i_sEurN_wvr3dwILA"}})
+        axios.get("http://3.6.165.128:5000/api/user/634453436ae09ee5db41a475/admin/user/updatevotes",
+        {headers:{Authorization:"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzQ0NTM0MzZhZTA5ZWU1ZGI0MWE0NzUiLCJpYXQiOjE2NjU0MjIyMDR9.P3QPLtexoLAQXX8z9l7DSWttY6gI6ROj8lqn4jQzbgs"}})
     },86400000)
 })
